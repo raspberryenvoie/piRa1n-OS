@@ -13,7 +13,7 @@ Once this process is done, you will find the image in /piRa1n-OS/work/date-piRa1
 
 More informations can be found [here](https://github.com/RPi-Distro/Pi-gen)
 
-## How to use piRa1n OS? And link to download built image of piRa1n-OS
+## How to use piRa1n? And link to download built image of piRa1n-OS
 Check [this link](https://github.com/raspberryenvoie/piRa1n).
 
 ## Credits:
