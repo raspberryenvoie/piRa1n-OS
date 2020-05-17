@@ -11,7 +11,6 @@ on_chroot << EOF
 sudo /home/pira1n/piRa1n/piRa1n -c -E
 sudo /sbin/shutdown now" > piRa1n.sh
   chmod +x install_piRa1n.sh piRa1n piRa1n.sh update_checkra1n.sh uninstall_piRa1n.sh piRa1n_no_automatic_shutdown.sh piRa1n_automatic_shutdown.sh piRa1n_safe_mode.sh
-  chmod 777 /home/pira1n/piRa1n/
   #The following commands will enable piRa1n at startup
   echo " [Unit]
  Description=Checkra1n
@@ -23,4 +22,6 @@ sudo /sbin/shutdown now" > piRa1n.sh
   chmod 644 /lib/systemd/system/piRa1n.service
   systemctl daemon-reload
   systemctl enable piRa1n.service
+  chown -R pira1n:pira1n /home/pira1n/piRa1n/
+  chmod -R 755 /home/pira1n/piRa1n/
 EOF
