@@ -1,5 +1,5 @@
 # piRa1n-OS
-an OS for Raspberry Pi 4 based on Raspbian dedicated to jailbreak with Checkra1n
+An OS for Raspberry Pi 4 based on Raspbian dedicated to jailbreak with Checkra1n.
 
 ## Build yourself piRa1n-OS
 To install the required dependencies for pi-gen you should run:
