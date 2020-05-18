@@ -1,5 +1,5 @@
 # piRa1n-OS
-piRa1n-OS is an OS based on Raspbian with [piRa1n](https://github.com/raspberryenvoie/piRa1n) pre-installed
+piRa1n-OS is an OS based on Raspbian with [piRa1n](https://github.com/raspberryenvoie/piRa1n) pre-installed.
 
 ## How to use piRa1n? And link to download built image of piRa1n-OS
 Check [this link](https://github.com/raspberryenvoie/piRa1n) for instructions on how to use piRa1n.
