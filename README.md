@@ -17,7 +17,7 @@ Run `git clone https://github.com/raspberryenvoie/piRa1n-OS.git && cd piRa1n-OS`
 Then, build the image by runing `sudo ./build.sh`.\
 Once this process is done, you will find the image in /piRa1n-OS/work/date-piRa1n-OS-lite/export-image
 
-More informations can be found [here](https://github.com/RPi-Distro/Pi-gen)
+More informations on how to use pi-gen can be found [here](https://github.com/RPi-Distro/Pi-gen)
 
 ## Credits:
 - [pi-gen](https://github.com/RPi-Distro/Pi-gen)
