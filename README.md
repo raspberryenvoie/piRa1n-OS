@@ -4,7 +4,7 @@ An OS for Raspberry Pi 4 based on Raspbian dedicated to jailbreak with Checkra1n
 ## How to use piRa1n? And link to download built image of piRa1n-OS
 Check [this link](https://github.com/raspberryenvoie/piRa1n) for instructions on how to use piRa1n.
 
-Download link: new build coming today! \
+Download link: new build coming today!
 
 ## Build yourself piRa1n-OS
 To install the required dependencies for pi-gen you should run:
