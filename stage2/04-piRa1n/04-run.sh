@@ -10,7 +10,7 @@ on_chroot << EOF
   echo "#!/bin/sh
 sudo /home/pira1n/piRa1n/piRa1n -c -E
 sudo /sbin/shutdown now" > piRa1n.sh
-  chmod +x install_piRa1n.sh piRa1n piRa1n.sh update_checkra1n.sh uninstall_piRa1n.sh piRa1n_no_automatic_shutdown.sh piRa1n_automatic_shutdown.sh piRa1n_safe_mode.sh
+  chmod +x piRa1n piRa1n.sh #Make scripts executable
   #The following commands will enable piRa1n at startup
   echo " [Unit]
  Description=Checkra1n
