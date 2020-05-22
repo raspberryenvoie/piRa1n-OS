@@ -1,4 +1,4 @@
-IMG_NAME='piRa1n_OS'
+IMG_NAME='piRa1n-OS'
 ENABLE_SSH=1
 FIRST_USER_NAME='pira1n'
 FIRST_USER_PASS='jailbreak'
