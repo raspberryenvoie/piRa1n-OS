@@ -2,7 +2,7 @@
 piRa1n-OS is an OS based on Raspbian with [piRa1n](https://github.com/raspberryenvoie/piRa1n) pre-installed.
 
 ## How to use piRa1n? And link to download built image of piRa1n-OS
-Check [this link](https://github.com/raspberryenvoie/piRa1n) for instructions on how to use piRa1n.
+Check [this link](https://github.com/raspberryenvoie/piRa1n) for instructions on how to use piRa1n.\
 The default username of piRa1n-OS is `pira1n` and the password is `jailbreak`.
 
 Download link: https://drive.google.com/open?id=1vfn6FBJuUVwUf8gmFHT2aoJPlng42Dv5 \
