@@ -18,7 +18,7 @@ dosfstools bsdtar libcap2-bin grep rsync xz-utils file git curl bc
 ```
 Run `git clone https://github.com/raspberryenvoie/piRa1n-OS.git && cd piRa1n-OS`.\
 Then, build the image by runing `sudo ./build.sh`.\
-Once this process is done, you will find the image in /piRa1n-OS/work/date-piRa1n_OS/export-image
+Once this process is done, you will find the image in /piRa1n-OS/work/date-piRa1n-OS/export-image
 
 ## Credits:
 - [pi-gen](https://github.com/RPi-Distro/Pi-gen)
