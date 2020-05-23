@@ -18,8 +18,8 @@ sudo /sbin/shutdown now" > piRa1n.sh
  [Service]
  ExecStart=/home/pira1n/piRa1n/piRa1n.sh
  [Install]
- WantedBy=multi-user.target" | sudo tee /lib/systemd/system/piRa1n.service
-  chmod 644 /lib/systemd/system/piRa1n.service
+ WantedBy=multi-user.target" | sudo tee /etc/systemd/system/piRa1n.service
+  chmod 644 /etc/systemd/system/piRa1n.service
   systemctl daemon-reload
   systemctl enable piRa1n.service
   chown -R pira1n:pira1n /home/pira1n/piRa1n/
