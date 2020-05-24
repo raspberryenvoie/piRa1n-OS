@@ -5,7 +5,7 @@ on_chroot << EOF
   cd /home/pira1n/
   git clone https://github.com/raspberryenvoie/piRa1n.git
   cd piRa1n/
-  wget https://assets.checkra.in/downloads/linux/cli/arm/1ed46fb34c72ee942a1af185fd5347b999f4bba667d594dd56554e3b3d3ea417/checkra1n-armel -O /home/pira1n/piRa1n/piRa1n #Download Checkra1n
+  wget https://assets.checkra.in/downloads/linux/cli/arm/1ed46fb34c72ee942a1af185fd5347b999f4bba667d594dd56554e3b3d3ea417/checkra1n -O /home/pira1n/piRa1n/piRa1n #Download Checkra1n
   cd /home/pira1n/piRa1n/
   echo "#!/bin/sh
 sudo /home/pira1n/piRa1n/piRa1n -c -E
