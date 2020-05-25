@@ -5,7 +5,8 @@ piRa1n-OS is an OS based on Raspbian with [piRa1n](https://github.com/raspberrye
 Check [this link](https://github.com/raspberryenvoie/piRa1n) for instructions on how to use piRa1n.\
 The default username of piRa1n-OS is `pira1n` and the password is `jailbreak`.
 
-New build that support Checkra1n 0.10.2 is coming today!
+Download link: https://drive.google.com/open?id=1w5wztN5gXRew-uyo-1nxbGQIXj_AwziA \
+SHA256: 2758a4436ae268a78e84d516a88910cf52527875a8e52f98950638ebf054082b
 
 ## Build yourself piRa1n-OS
 The tool used to build piRa1n-OS (pi-gen) supports Debian Buster and Ubuntu Xenial. More informations on pi-gen can be found [here](https://github.com/RPi-Distro/Pi-gen).
