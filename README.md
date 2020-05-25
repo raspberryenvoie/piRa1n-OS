@@ -17,8 +17,8 @@ To install the required dependencies for pi-gen you should run:
 apt-get install coreutils quilt parted qemu-user-static debootstrap zerofree zip \
 dosfstools bsdtar libcap2-bin grep rsync xz-utils file git curl bc
 ```
-Run `git clone https://github.com/raspberryenvoie/piRa1n-OS.git && cd piRa1n-OS`.\
-Then, build the image by runing `sudo ./build.sh`.\
+Run `git clone https://github.com/raspberryenvoie/piRa1n-OS.git`.\
+Then, build the image by runing `cd piRa1n-OS && sudo ./build.sh`.\
 Once this process is done, you will find the image in `piRa1n-OS/work/date-piRa1n-OS/export-image`.
 
 ## Credits:
