@@ -6,7 +6,7 @@ Check [this link](https://github.com/raspberryenvoie/piRa1n) for instructions on
 The default username of piRa1n-OS is `pira1n` and the password is `jailbreak`.
 
 Download link: https://drive.google.com/open?id=1w5wztN5gXRew-uyo-1nxbGQIXj_AwziA \
-SHA256: 2758a4436ae268a78e84d516a88910cf52527875a8e52f98950638ebf054082b
+SHA256: 2758a4436ae268a78e84d516a88910cf52527875a8e52f98950638ebf054082b \
 New build that supports piRa1n 3.0 is coming soon!
 
 ## Build yourself piRa1n-OS
