@@ -1,5 +1,5 @@
 # piRa1n-OS
-piRa1n-OS is an OS based on Raspbian with [piRa1n](https://github.com/raspberryenvoie/piRa1n) pre-installed.
+piRa1n-OS is an OS based on Raspbian with [piRa1n](https://github.com/raspberryenvoie/piRa1n) and [piRa1n-web](https://github.com/raspberryenvoie/piRa1n-web) pre-installed.
 
 ## How to use piRa1n? And link to download built image of piRa1n-OS
 Check [this link](https://github.com/raspberryenvoie/piRa1n) for instructions on how to use piRa1n.\
@@ -18,7 +18,7 @@ dosfstools bsdtar libcap2-bin grep rsync xz-utils file git curl bc
 ```
 Run `git clone https://github.com/raspberryenvoie/piRa1n-OS.git`.\
 Then, build the image by runing `cd piRa1n-OS && sudo ./build.sh`.\
-Once this process is done, you will find the image in `work/date-piRa1n-OS/export-image`.
+Once this process is done, you will find the image in `work/date-piRa1n-OS/export-image/`.
 
 ## Credits:
 - [pi-gen](https://github.com/RPi-Distro/Pi-gen)
