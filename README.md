@@ -5,7 +5,7 @@ piRa1n-OS is an OS based on Raspberry Pi OS with [piRa1n](https://github.com/ras
 Check [this link](https://github.com/raspberryenvoie/piRa1n) for instructions on how to use piRa1n.\
 The default username of piRa1n-OS is `pi` and the password is `jailbreak`.
 
-Latest build: https://github.com/raspberryenvoie/piRa1n-OS/releases \
+Latest build: https://github.com/raspberryenvoie/piRa1n-OS/releases
 
 ## Build yourself piRa1n-OS
 The tool used to build piRa1n-OS (pi-gen) supports Debian Buster and Ubuntu Xenial. More informations on pi-gen can be found [here](https://github.com/RPi-Distro/Pi-gen).
