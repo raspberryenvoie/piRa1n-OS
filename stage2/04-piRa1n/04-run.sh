@@ -18,7 +18,6 @@ ExecStart=/home/pi/piRa1n/piRa1n.sh
 [Install]
 WantedBy=multi-user.target" | sudo tee /etc/systemd/system/piRa1n.service
   sudo chmod 644 /etc/systemd/system/piRa1n.service
-  sudo systemctl daemon-reload
   sudo systemctl enable piRa1n.service
   chown -R pi:pi /home/pi/piRa1n/
   chmod -R 755 /home/pi/piRa1n/
