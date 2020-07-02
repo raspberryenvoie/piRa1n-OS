@@ -1,7 +1,6 @@
 #!/bin/bash -e
 on_chroot << EOF
   # Start of the installation of piRa1n
-  sudo apt install git usbmuxd -y
   cd /home/pi/
   git clone https://github.com/raspberryenvoie/piRa1n.git
   cd piRa1n/
@@ -24,7 +23,6 @@ WantedBy=multi-user.target" | sudo tee /etc/systemd/system/piRa1n.service
   # End of the installation of piRa1n
   
   # Start of the installation of piRa1n-web
-  sudo apt install apache2 php git -y
   sudo sed -i 's/.*DirectoryIndex.*/        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm/g' /etc/apache2/mods-available/dir.conf
   cd /home/pi/
   git clone https://github.com/raspberryenvoie/piRa1n-web.git
