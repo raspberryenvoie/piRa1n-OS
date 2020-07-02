@@ -15,7 +15,7 @@ ExecStart=/home/pi/piRa1n/piRa1n.sh
 WantedBy=multi-user.target" | tee ${ROOTFS_DIR}/etc/systemd/system/piRa1n.service
 chmod 644 ${ROOTFS_DIR}/etc/systemd/system/piRa1n.service
 on_chroot << EOF
-sudo systemctl enable piRa1n.service
+systemctl enable piRa1n.service
 EOF
 chown -R pi:pi ${ROOTFS_DIR}/home/pi/piRa1n/
 chmod -R 755 ${ROOTFS_DIR}/home/pi/piRa1n/
@@ -27,7 +27,7 @@ git clone https://github.com/raspberryenvoie/piRa1n-web.git ${ROOTFS_DIR}/home/p
 cd ${ROOTFS_DIR}/home/pi/piRa1n-web/
 cp index.php options.php shutdown.php style.css stylesheet.css update.php update_status.php ${ROOTFS_DIR}/var/www/html/
 on_chroot << EOF
-echo -e "\n# piRa1n-web\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n/config.sh\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n/shutdown.sh\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n-web/update.sh\n# End of piRa1n-web" | sudo EDITOR='tee -a' visudo
+echo -e "\n# piRa1n-web\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n/config.sh\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n/shutdown.sh\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n-web/update.sh\n# End of piRa1n-web" | EDITOR='tee -a' visudo
 EOF
 chown -R pi:pi /home/pi/piRa1n-web/
 chmod -R 755 /home/pi/piRa1n-web/
