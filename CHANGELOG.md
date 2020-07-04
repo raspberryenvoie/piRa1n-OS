@@ -9,9 +9,10 @@
 - piRa1n-web v1.1
 
 ## v2 - 2020-05-29
+### Added
+- piRa1n-web
 ### Changed
 - piRa1n v3
-- piRa1n-web
 
 ## v1.1 - 2020-05-25
 ### Changed
