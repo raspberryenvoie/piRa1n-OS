@@ -6,7 +6,7 @@
 ### Changed
 - Renamed piRa1n-OS/stage2/04-piRa1n/00-run.sh to piRa1n-OS/stage2/04-piRa1n/01-run.sh
 - piRa1n v3.1
-- piRa1n-web 1.1
+- piRa1n-web v1.1
 
 ## v2 - 2020-05-29
 ### Changed
