@@ -1,5 +1,5 @@
 # Changelog
-## v2.1 - 2020-07-04
+## v2.1 - 2020-07-05
 ### Changed
 - Install packages using piRa1n-OS/stage2/04-piRa1n/00-packages
 - Execute using chroot only those commands that require chroot when building piRa1n-OS
