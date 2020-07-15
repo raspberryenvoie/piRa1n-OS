@@ -5,7 +5,7 @@ wget https://assets.checkra.in/downloads/linux/cli/arm/dde0ee4255403a427636bb76e
 chmod +x ${ROOTFS_DIR}/home/pi/piRa1n/checkra1n
 # The following commands will enable piRa1n at startup
 echo "[Unit]
-Description=Checkra1n
+Description=piRa1n
 After=multi-user.target
 
 [Service]
