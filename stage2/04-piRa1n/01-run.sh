@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Start of the installation of piRa1n
 git clone https://github.com/raspberryenvoie/piRa1n.git ${ROOTFS_DIR}/home/pi/piRa1n/
-wget https://assets.checkra.in/downloads/linux/cli/arm/dde0ee4255403a427636bb76e09e409487f8be128af4b7d89fac78548bd5b35a/checkra1n -O ${ROOTFS_DIR}/home/pi/piRa1n/piRa1n # Download Checkra1n
-chmod +x ${ROOTFS_DIR}/home/pi/piRa1n/piRa1n
+wget https://assets.checkra.in/downloads/linux/cli/arm/dde0ee4255403a427636bb76e09e409487f8be128af4b7d89fac78548bd5b35a/checkra1n -O ${ROOTFS_DIR}/home/pi/piRa1n/checkra1n # Download Checkra1n
+chmod +x ${ROOTFS_DIR}/home/pi/piRa1n/checkra1n
 # The following commands will enable piRa1n at startup
 echo "[Unit]
 Description=Checkra1n
