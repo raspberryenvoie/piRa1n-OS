@@ -1,6 +1,6 @@
 #!/bin/bash -e
 # Compile libirecovery
-git clone https://github.com/libimobiledevice/libirecovery.git ${ROOTFS_DIR}/home/pi/piRa1n/libirecovery/
+git clone https://github.com/libimobiledevice/libirecovery.git ${ROOTFS_DIR}/home/pi/libirecovery/
 on_chroot << EOF
 cd /home/pi/libirecovery/
 ./autogen.sh
