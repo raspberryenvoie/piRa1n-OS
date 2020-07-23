@@ -1,1 +1,1 @@
-apache2 php git usbmuxd libimobiledevice6 libimobiledevice-utils build-essential checkinstall git autoconf automake libtool-bin libreadline-dev libusb-1.0-0-dev libusbmuxd-tools
+apache2 php git usbmuxd libimobiledevice6 libimobiledevice-utils build-essential checkinstall git autoconf automake libtool-bin libreadline-dev libusb-1.0-0-dev libusbmuxd-tools sshpass
