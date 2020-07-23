@@ -35,7 +35,7 @@ chmod -R 755 ${ROOTFS_DIR}/home/pi/piRa1n/
 sed -i 's/.*DirectoryIndex.*/        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm/g' ${ROOTFS_DIR}/etc/apache2/mods-available/dir.conf
 git clone https://github.com/raspberryenvoie/piRa1n-web.git ${ROOTFS_DIR}/home/pi/piRa1n-web/
 cd ${ROOTFS_DIR}/home/pi/piRa1n-web/
-cp index.php options.php shutdown.php style.css stylesheet.css update.php update_status.php exit_recovery_mode.php ${ROOTFS_DIR}/var/www/html/
+cp index.php options.php shutdown.php style.css stylesheet.css update.php update_status.php exit_recovery_mode.php odysseyra1n.php ${ROOTFS_DIR}/var/www/html/
 on_chroot << EOF
 echo -e "\n# piRa1n-web\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n/config.sh\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n/shutdown.sh\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n-web/update.sh\nwww-data ALL=(ALL) NOPASSWD: /home/pi/piRa1n/exit_recovery_mode.sh\n# End of piRa1n-web" | sudo EDITOR='tee -a' visudo
 chown -R pi:pi /home/pi/piRa1n-web/

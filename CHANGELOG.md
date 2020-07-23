@@ -1,13 +1,24 @@
 # Changelog
+
+## v4 - 2020-07-23
+### Changed
+- piRa1n v5
+- piRa1n-web v1.3
+
+## v3 - 2020-07-21
+### Changed
+- piRa1n v4.0
+- piRa1n-web v1.2
+
 ## v2.1 - 2020-07-05
+### Added
+- My copyright in the licence
 ### Changed
 - Install packages using piRa1n-OS/stage2/04-piRa1n/00-packages
 - Execute using chroot only those commands that require chroot when building piRa1n-OS
 - Renamed piRa1n-OS/stage2/04-piRa1n/00-run.sh to piRa1n-OS/stage2/04-piRa1n/01-run.sh
 - piRa1n v3.1
 - piRa1n-web v1.1
-### Added
-- My copyright in the licence
 
 ## v2 - 2020-05-29
 ### Added
