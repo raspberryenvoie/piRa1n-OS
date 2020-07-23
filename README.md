@@ -24,7 +24,7 @@ Once this process is done, you will find the image in `work/date-piRa1n-OS/expor
 
 ## [What's new?](https://github.com/raspberryenvoie/piRa1n-OS/blob/master/CHANGELOG.md)
 
-## Credit to
+## Credits
 - [RPi-Distro](https://github.com/RPi-Distro) for [pi-gen](https://github.com/RPi-Distro/Pi-gen)
 - The Raspberry Pi Foundation for [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
 - The Checkra1n team for [Checkra1n](https://checkra.in)
