@@ -15,15 +15,17 @@ git clone https://github.com/raspberryenvoie/piRa1n.git ${ROOTFS_DIR}/home/pi/pi
 wget https://assets.checkra.in/downloads/linux/cli/arm/dde0ee4255403a427636bb76e09e409487f8be128af4b7d89fac78548bd5b35a/checkra1n -O ${ROOTFS_DIR}/home/pi/piRa1n/checkra1n # Download Checkra1n
 chmod +x ${ROOTFS_DIR}/home/pi/piRa1n/checkra1n
 # The following commands will enable piRa1n at startup
-echo "[Unit]
+echo '[Unit]
 Description=piRa1n
 After=multi-user.target
 
 [Service]
 ExecStart=/home/pi/piRa1n/piRa1n.sh
+StandardOutput=file:/var/log/piRa1n.log
+StandardError=file:/var/log/piRa1n.log
 
 [Install]
-WantedBy=multi-user.target" > ${ROOTFS_DIR}/etc/systemd/system/piRa1n.service
+WantedBy=multi-user.target' | sudo tee /etc/systemd/system/piRa1n.service > ${ROOTFS_DIR}/etc/systemd/system/piRa1n.service
 chmod 644 ${ROOTFS_DIR}/etc/systemd/system/piRa1n.service
 on_chroot << EOF
 systemctl enable piRa1n.service
