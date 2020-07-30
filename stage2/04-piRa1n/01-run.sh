@@ -25,7 +25,7 @@ StandardOutput=file:/var/log/piRa1n.log
 StandardError=file:/var/log/piRa1n.log
 
 [Install]
-WantedBy=multi-user.target' | sudo tee /etc/systemd/system/piRa1n.service > ${ROOTFS_DIR}/etc/systemd/system/piRa1n.service
+WantedBy=multi-user.target' > ${ROOTFS_DIR}/etc/systemd/system/piRa1n.service
 chmod 644 ${ROOTFS_DIR}/etc/systemd/system/piRa1n.service
 on_chroot << EOF
 systemctl enable piRa1n.service
