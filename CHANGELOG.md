@@ -1,8 +1,12 @@
 # Changelog
 
-## v4.0.1 - 2020-07-31
+## v4.0.2 - 2020-07-31
 ### Fixed
 - Startup script not saving the log
+
+## v4.0.1
+### Fixed
+- Shut down button in piRa1n-web
 
 ## v4 - 2020-07-23
 ### Changed
