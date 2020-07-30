@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.1 -2020-07-31
+### Fixed
+- Startup script not saving the log
+
 ## v4 - 2020-07-23
 ### Changed
 - piRa1n v5
